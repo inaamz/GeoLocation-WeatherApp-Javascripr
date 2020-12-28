@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GeoLocation Weather - Javascript Fetch</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container-->
+    <div class="container">
+		<!-- Title-->
+        <div class="app-title">
+		<!-- Change this Paragraph to your desired text-->
+            <p>GeoLocation Weather</p>
+        </div>
+		
+		<!-- Notification Error if Location was denied by user-->
+        <div class="notification"> </div>
+		
+		<!-- Weather Container-->
+        <div class="weather-container">
+		
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+			
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+			
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+			
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+		<!-- Footer | Change my text with your copyrights.-->
+		<div class="footer">
+				
+				<a href="https://fb.com/inamhoney"><p>Design with <span style="color:#f5ab35;">&hearts;</span> by Inam</p></a>
+		</div>
+		
+    </div>
+	
+	<!-- Useful text for Users if they don't understand to allow location-->
+    <div class="gps">
+		<h5><span>*</span> Please click on allow access to location for showing weather in your city using Open weather API</h5>
+	
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
